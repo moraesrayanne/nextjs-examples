@@ -19,13 +19,12 @@ export default function ToDos({ todos }) {
         <title>Contacts</title>
       </Head>
       <div className={styles.container}>
-        <h1>Lista de Contatos</h1>
+        <h1>Posts</h1>
         <ul className={styles.todolist}>
           {todos.map((todo) => {
             return(
             <li key={todo.id}>
-              {todo.id} - 
-              {todo.title} - 
+              {todo.id} - {todo.title} - 
               <Link href={`/todos/${todo.id}`}>
                 <a> Ver mais</a>
               </Link>

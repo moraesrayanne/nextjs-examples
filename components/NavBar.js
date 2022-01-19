@@ -24,12 +24,7 @@ export default function NavBar() {
         </li>
         <li>
           <Link href="/todos">
-            <a>CONTACT</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/todos/1">
-            <a>TO DO</a>
+            <a>POSTS</a>
           </Link>
         </li>
       </ul>
