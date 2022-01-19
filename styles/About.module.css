@@ -1,0 +1,9 @@
+.container {
+    min-height: 55vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: lightcoral;
+}
